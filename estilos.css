@@ -275,7 +275,7 @@ html{
     }
     @keyframes htmlcss{
         0%{width: 0;}
-        100%{width: 55%;}
+        100%{width: 90%;}
     }
     .skills .skill .javascript{
         width: 0%;
@@ -307,7 +307,7 @@ html{
     }
     @keyframes responsable{
         0%{width: 0;}
-        100%{width: 90%;}
+        100%{width: 95%;}
     }
     .skills .skill .confiable{
         width: 0%;
@@ -315,7 +315,7 @@ html{
     }
     @keyframes confiable{
         0%{width: 0;}
-        100%{width: 95%;}
+        100%{width: 100%;}
     }
     .skills .skill .organizado{
         width: 0%;
@@ -323,7 +323,7 @@ html{
     }
     @keyframes organizado{
         0%{width: 0;}
-        100%{width: 85%;}
+        100%{width: 90%;}
     }
     .skills .skill .equipo{
         width: 0%;
@@ -331,7 +331,7 @@ html{
     }
     @keyframes equipo{
         0%{width: 0;}
-        100%{width: 65%;}
+        100%{width: 99%;}
     }
     /* SECCION CURRICULUM */
     .curriculum{
