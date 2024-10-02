@@ -649,6 +649,12 @@ html{
             border-bottom: 1px solid #fff;
             padding: 10px 0;
         }
+        .contacto .fila{
+            display: flex;
+        }
+        .contacto .fila .col{
+            width: 100%;
+        }
     }
     @media screen and (max-width:700px){
         .sobremi .fila{
