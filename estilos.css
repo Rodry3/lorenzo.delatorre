@@ -82,7 +82,7 @@ html{
         border-radius: 100%;
     }
     .inicio .contenido-banner h1{
-        margin-top: 40px;
+        margin-top: 30px;
         font-size: 42px; /* Cambiar valor por 27px */
         font-family: 'Righteous';
 
@@ -230,7 +230,7 @@ html{
         font-size: 48px;
         font-family: 'Righteous';
         text-align: center;
-        padding: 20px 0;
+        padding: 50px 0;
     }
     .skills .fila{
         display: flex;
@@ -542,7 +542,7 @@ html{
         background-color: transparent;
         width: fit-content;
         display: block;
-        margin: 20px auto;
+        margin: 50px auto;
         padding: 10px 22px;
         font-size: 16px;
         color: #fff;
@@ -692,6 +692,9 @@ html{
             display: block;
         }
         .contacto .fila .col{
+            width: 100%;
+        }
+        .contacto .col img{
             width: 100%;
         }
     }
