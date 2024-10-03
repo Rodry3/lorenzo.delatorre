@@ -650,7 +650,7 @@ html{
             padding: 10px 0;
         }
         .contacto .fila{
-            display: block;
+            display: flex;
         }
         .contacto .fila .col{
             width: 100%;
