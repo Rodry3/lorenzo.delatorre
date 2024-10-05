@@ -191,6 +191,9 @@ html{
         font-size: 30px;
         margin-bottom: 10px;
     }
+    .btn-descargar{
+    text-decoration: none;
+    }
     .sobremi button{
         cursor: pointer;
         background-color: transparent;
