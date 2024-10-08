@@ -60,7 +60,7 @@ html{
         background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
         url(img/fondo.jpg);
         background-size: cover;
-        height: 115vh; /* Antes valor 100% */
+        height: 105vh; /* Antes valor 100% */
         color: #fff;
         display: flex;
         align-items: center;
@@ -155,7 +155,7 @@ html{
         list-style: none;
     }
     .sobremi .fila .col ul li{
-        margin: 25px 0;
+        margin: 12px 0;
     }
     .sobremi .fila .col ul li strong{
         display: inline-block;
@@ -192,7 +192,7 @@ html{
         margin-bottom: 10px;
     }
     .btn-descargar{
-    text-decoration: none;
+        text-decoration: none;
     }
     .sobremi button{
         cursor: pointer;
@@ -629,6 +629,15 @@ html{
         line-height: 50px;
         font-size: 18px;
     }
+    .nro-tel{
+        text-decoration: none;
+        color: white;
+    }
+    .gif-whatsaap{
+        margin-top: -70px;
+        margin-bottom: -55px;
+        margin-left: 5px;
+    }
     /* SECCION RESPONSIVE */
     @media screen and (max-width:980px){
         nav{
@@ -654,14 +663,54 @@ html{
         }
     }
     @media screen and (max-width:700px){
-        .inicio .contenido-banner {
-            padding: 10px;
+        *{
+            margin: -2px;
+        }
+        .inicio{
+            height: 88vh ;
+        }
+        .contenedor-header header {
+            padding: 15px 15px;
+        }
+        .inicio .contenido-banner{
+            padding: 25px;
+        } 
+        .sobremi{
+            padding: 5px 5px;
         }
         .sobremi .fila{
             display: block;
         }
         .sobremi .fila .col{
             width: fit-content;
+        }
+        .sobremi .fila .col .contenedor-intereses {
+            display: flex;
+            flex-direction:inherit;
+        }
+        .skills{
+            padding: 10px;
+        }
+        .skills h2{
+            padding-top: 5px;
+        }
+        .curriculum{
+            padding: 10px;
+        }
+        .curriculum h2{
+            padding-top: 10px;
+        }
+        .portafolio{
+            padding: 10px;
+        }
+        .portafolio h2{
+            padding-top: 10px;
+        }
+        .contacto{
+            padding: 10px;
+        }
+        .contacto h2{
+            padding-top: 10px;
         }
         .skills .fila{
             display: block;
@@ -671,14 +720,14 @@ html{
         }
         .skills .fila .col .barra-skill{
             width: 100%;
-        }
+        }    
         .curriculum .fila{
             display: block;
         }
         .curriculum .fila .col{
             width: 90%;
         }
-        .curriculum .fila.derecha{
+        .curriculum .fila .derecha{
             margin-left: 20px;
         }
         .portfolio .galeria{
@@ -688,16 +737,13 @@ html{
         .portfolio .galeria .proyecto{
             max-width: 100%;
         }
-        .portafolio .galeria .proyecto img{
+        .portfolio .galeria .proyecto img{
             width: 100%;
         }
         .contacto .fila{
             display: block;
         }
         .contacto .fila .col{
-            width: 100%;
-        }
-        .contacto .col img{
             width: 100%;
         }
     }
