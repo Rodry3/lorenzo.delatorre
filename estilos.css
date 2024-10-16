@@ -191,6 +191,10 @@ html{
         font-size: 30px;
         margin-bottom: 10px;
     }
+    .container-btn{
+        display: flex;
+        justify-content: center;
+    }
     .btn-descargar{
         text-decoration: none;
     }
